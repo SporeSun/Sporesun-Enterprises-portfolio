@@ -42,6 +42,19 @@ If you followed tutorials, include links to those here as well.
 
 reset.css taken from: https://github.com/necolas/normalize.css/blob/master/normalize.css
 
+stock images are from the following:
+
+- https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg
+
+- https://latize.com/wp-content/uploads/2017/11/business_advantages_of_data_analysis.jpg
+
+- https://guitarspace.org/wp-content/uploads/2017/09/4-String-Bass-vs.-5-String-Bass-%E2%80%94-Which-Guitar-to-Choose-and-Why.png
+
+- https://www.morningagclips.com/wp-content/uploads/2018/04/11179217566_650541b88b_z.jpg
+
+- https://ychef.files.bbci.co.uk/1280x720/p07yjw6c.jpg
+
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
