@@ -1,0 +1,80 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+  }
+
+* {
+    box-sizing: border-box;
+    background-color: var(--outer-space);
+    color: var(--heliotrope)
+  }
+  
+  body {
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+  
+  /* Style the header */
+  .header {
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .header-img {
+    background-image: url(../images/twitr.jpg);
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 30pxs;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column
+  }
+  /* Create three equal rows that sits next to each other */
+
+  .card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }

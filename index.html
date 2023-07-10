@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services Offered - Sporesun Enterprises</title>
+  <title>CSS Snippet Cheatsheet</title>
   <link rel="stylesheet" href="assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -14,33 +14,28 @@
 
   <header>
     <h1 class="page-title">
-      Sporesun Enterprises
+      CSS Snippet Cheatsheet
     </h1>
-    <nav>
-        <a href="#about-me"></a>
-        <a href="#services-offered"></a>
-        <a href="#examples of work"></a>
-        <a href="#contact-me"></a>
-    </nav>
-    <div>
-        <img id="header-img" src="assets/images/twitr.jpg" alt="SporeSun Enterprises logo header image"> 
-    
-        "Jack of All Trades, Master of Many"
-    </div>
+    <p>
+      Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to
+      this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+    </p>
   </header>
 
   <main>
-    <section id="about-me"></section>
-    <section id="services-offered" class="row justify-center">
+    <section class="row justify-center">
       <div class="card-column">
         <figure class="card code-card">
-          <h2 class="card-header">Web Development</h2>
+          <h2 class="card-header">Flexbox Row</h2>
           <div class="card-body">
+            <p>Use these three properties to create a Flexbox row layout.</p>
           </div>
           <!-- with the <pre> element, it counts all spaces literally, so proper code indentation cannot be applied in this case -->
-          <pre class="code-block">
-            I am capable of web application development and UI/UX research
-          </pre>
+          <pre class="code-block"><code>.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}</code></pre>
         </figure>
       </div>
       <div class="card-column">
