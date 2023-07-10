@@ -25,13 +25,10 @@
   #border-box {
     position: relative;
     background: var(--outer-space);
-    display: flex;
-    flex-wrap: wrap;
   }
   #page-title {
     border: 6px solid rgba(75, 118, 187, 0.642);
     position: absolute;
-    flex-wrap: wrap;
   }
   
   .header-img {
@@ -51,21 +48,14 @@
     background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 5%;
-    padding-top: 8%;
-    display: flex;
-    flex-wrap: wrap;
   }
   div.headshot img {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
   }
   div.container {
     text-align: center;
     padding: 0 px 20px;
-    display: flex;
-    flex-wrap: wrap;
   }
   .header-img nav {
     text-align: right;
@@ -78,24 +68,24 @@
   
 
   /* Container for flexboxes */
-  .row {
+  .flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .column {
-    display: flex;
-    flex-direction: column
+  .flex-column {
+    width: 33%;
+    padding: 5px;
   }
-  /* Create three equal rows that sits next to each other */
 
   .card {
     flex: 1 0 0;
-    padding: 10px;
+    border: 2px dashed;
+    height: 300px;
+    width: 400px;
+    margin: 5px;
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
   }
 
   .card header {
@@ -107,6 +97,20 @@
   .card img {
     width: 100%;
     min-width: 400px;
+  }
+
+  .card p {
+    white-space: pre-wrap;
+    overflow: auto;
+    color: var(--gin);
+    border-radius: 8px;
+    /* use linear-gradient() function to create a fading background  */
+    background-image: linear-gradient(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+    );
+    display: flex;
+    align-items: center;
   }
   
   /* Style the footer */
