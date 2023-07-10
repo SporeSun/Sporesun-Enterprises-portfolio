@@ -8,11 +8,11 @@
 * {
     box-sizing: border-box;
     background-color: var(--outer-space);
-    color: var(--heliotrope);
+    color: var(--heliotrope)
   }
   
   body {
-    font-family: Garamond, Times, serif
+    font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
   
   /* Style the header */
@@ -25,13 +25,10 @@
   #border-box {
     position: relative;
     background: var(--outer-space);
-    display: flex;
-    flex-wrap: wrap;
   }
   #page-title {
     border: 6px solid rgba(75, 118, 187, 0.642);
     position: absolute;
-    flex-wrap: wrap;
   }
   
   .header-img {
@@ -51,32 +48,22 @@
     background-color: transparent;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 5%;
-    padding-top: 8%;
-    display: flex;
-    flex-wrap: wrap;
+    padding-top: 9%;
   }
   div.headshot img {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
   }
   div.container {
     text-align: center;
-    padding: 0 px 20px;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 10px 20px;
   }
   .header-img nav {
     text-align: right;
-    position: flex;
+    position: relative;
     background-color: transparent;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-size: 25px;
   }
   
-
   /* Container for flexboxes */
   .row {
     display: flex;
