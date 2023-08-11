@@ -1,141 +1,15 @@
-:root {
-    --outer-space: #33393f;
-    --bright-turquoise: #2aefcb;
-    --gin: #e0eae4;
-    --heliotrope: #e866ec;
-  }
+body {
+    font-family: Arial, sans-serif;
+}
 
-* {
-    box-sizing: border-box;
-    background-color: var(--outer-space);
-    color: var(--heliotrope);
-  }
-  
-  body {
-    font-family: Garamond, Times, serif
-  }
-  
-  /* Style the header */
-  .header {
-    padding-left: 65px;
-    padding-bottom: 100px;
-    text-align: left;
-    font-size: 25px;
-  }
-  #border-box {
-    position: relative;
-    background: var(--outer-space);
-  }
-  #page-title {
-    border: 6px solid rgba(75, 118, 187, 0.642);
-    position: absolute;
-  }
-  
-  .header-img {
-    width: 100vw;
-    height: 70vh;
-    background-image: url(../images/twitr.jpg);
+header {
+    margin-bottom: 50px;
+    background-image: url(../images/FB.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%, 100vh, cover;
-    border-style: solid;
-    border-color: var(--heliotrope) black;
-   
-  }
+    background-size: 60vh;
+}
 
-  .headshot {
-    width: 400px;
-    background-color: transparent;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 5%;
-  }
-  div.headshot img {
-    max-height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  div.container {
-    text-align: center;
-    padding: 0 px 20px;
-  }
-  .header-img nav {
-    text-align: right;
-    position: flex;
-    background-color: transparent;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-size: 25px;
-  }
-  
-
-  /* Container for flexboxes */
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .flex-column {
-    width: 33%;
-    padding: 5px;
-  }
-
-  .card {
-    flex: 1 0 0;
-    border: 2px dashed;
-    height: 75vh;
-    width: 400px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 8px;
-    /* use linear-gradient() function to create a fading background  */
-    background-image: linear-gradient(
-      rgba(232, 102, 236, 0.3) 0%,
-      rgba(232, 102, 236, 0.6) 100%
-    );
-  }
-
-  .card header {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-    border-radius: 8px 8px 0 0;
-  }
-
-  .card img {
-    width: 100%;
-    min-width: 300px;
-  }
-
-  .card p {
-    white-space: pre-wrap;
-    overflow: auto;
-    color: var(--gin);
-    border-radius: 8px;
-    /* use linear-gradient() function to create a fading background  */
-    background-color: transparent;  
-    display: flex;
-    align-items: center;
-    
-  }
-
-  .card:hover,
-  .card:hover .card header {
-  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  }
-
-  #coaching {
-    height: 75vh;
-  }
-  
-  /* Style the footer */
-  .footer {
-    padding: 10px;
-    text-align: center;
-  }
-  .card-column {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
+#work img {
+    margin-bottom: 10px;
+}

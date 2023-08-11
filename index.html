@@ -1,118 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Services Offered - Sporesun Enterprises</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>  
-  <header class="header">
-    <br>
-    <div id="border-box">
-        <h1 id="page-title">Services Available</h1>
-    </div>
-  </header>
-  <div class="header-img">
-    <div class="headshot">
-        <img src="assets/images/headshot.jpg" alt="picture of programmer">
-        <div class="container">
-            Neil Holloway: Jack of All Trades, Master of Many!
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Sporesun Enterprises</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services-offered">Services Offered</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
-    <nav>
-        <a href="#about-me">About Me</a>
-        |
-        <a href="#services-offered">Services Offered</a>
-        |
-        <a href="#portfolio">Work Examples</a>
-        |
-        <a href="#contact-me">Contact Me</a>
     </nav>
-  </div>
-  <main>
+    <main class="bg-dark text-light">
+      <header class="header container text-left mt-6 w100">
+          <img src="assets/images/headshot2.jpg" alt="Developer Avatar" class="rounded-circle border border-primary-subtle " width="150">
+          <h1>Neil Holloway</h1>
+      </header>
 
-    <section id="about-me">
-      <h2>About Me</h2>
-      <p>
-        I am a bachelor's of clinical psychology from California State University, Dominguez Hills. I am 33 years old and very proudly neurodivergent. I have been involved in the mental health field for nearly 4 years professionally and 12 years personally, but have been looking to make a pivot to a career that combines my love of computers with the act of creation. I have also been running a gourmet and medicinal mushroom farm for 8 years, and have been actively involved in social justice activism in and around Orange County, CA. My focus for social justice is harm reduction initiatives, because policies around prohibition have destroyed people's lives and leave many vulnerable.
+      <section id="about" class="container mt-5">
+          <h2>About Me</h2>
+          <p>I am a bachelor's of clinical psychology from California State University, Dominguez Hills. I am 33 years old and very proudly neurodivergent. I have been involved in the mental health field for nearly 4 years professionally and 12 years personally, but have been looking to make a pivot to a career that combines my love of computers with the act of creation. I have also been running a gourmet and medicinal mushroom farm for 8 years, and have been actively involved in social justice activism in and around Orange County, CA. My focus for social justice is harm reduction initiatives, because policies around prohibition have destroyed people's lives and leave many vulnerable.
 
-        My goal as a web developer is to become fully mobile while entirely supporting myself through van life. I wish to be able to set myself up anywhere without much trouble, and delve into the adventure much of my 20s missed thanks to my neurodivergent struggles and misdirection by academic institutions.
+            My goal as a web developer is to become fully mobile while entirely supporting myself through van life. I wish to be able to set myself up anywhere without much trouble, and delve into the adventure much of my 20s missed thanks to my neurodivergent struggles and misdirection by academic institutions.
+    
+            Yes, I will get this bio fixed by career services eventually, but I thought y'all should actually know me.</p>
+      </section>
+      <section id="services-offered" class="container mt-5">
+        <h2>Services Offered</h2>
+        <div class="row">
+            <div class="col-lg-4">
+              <a href="app2_link.html" target="_blank">
+                <img src="assets/images/data-analysis.jpg" alt="App 1" class="img-fluid border border-primary-subtle">
+                <p>Data Analysis</p>
+              </a>
+            </div>
+            <!-- Additional application images can be placed in col-lg-3 or col-lg-4 depending on how many per row you want. Example: -->
+            <div class="col-lg-4">
+                <a href="app2_link.html" target="_blank">
+                  <img src="assets/images/webdev.jpg" alt="App 2" class="img-fluid img-thumbnail">
+                  <p>Web Development</p>
+                </a>
+            </div>
+            <!-- And so on... -->
+            <div class="col-lg-4">
+              <a href="app2_link.html" target="_blank">
+                <img src="assets/images/ui-ux.png" alt="App 2" class="img-fluid img-thumbnail">
+                <p>UI/UX Research</p>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="app2_link.html" target="_blank">
+                <img src="assets/images/bass.png" alt="App 2" class="img-fluid img-thumbnail">
+                <p>Bass Lessons and Session Recordings</p>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="app2_link.html" target="_blank">
+                  <img src="assets/images/coaching.jpg" alt="App 2" class="img-fluid img-thumbnail">
+                  <p>Psychedelic Coaching</p>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a href="app2_link.html" target="_blank">
+                <img src="assets/images/fungi.jpg" alt="App 2" class="img-fluid img-thumbnail">
+                <p>Consulting for Mushroom and Fungi-based Startups</p>
+              </a>
+            </div>
+        </div>
+      </section>
 
-        Yes, I will get this bio fixed by career services eventually, but I thought y'all should actually know me.
-      </p>
-    </section>
-    <h2>Services Offered</h2>
-    <section id="services" class="flex-container">
-      <div id="webdev" class = "card flex-column">
-        <header>Web Development</header>
-        <img src="assets/images/webdev.jpg" alt="webdev">
-        <p>
-          I provide full stack web development services. I can handle frontend, backend, and deployment with a variety of tools.
-        </p>
-      </div>
-      <div id="research" class="card flex-column">
-        <header>Data Analysis</header>
-        <img src="assets/images/data-analysis.jpg" alt="data analysis">
-        <p>
-          My background clinical psychology and academic research combined with my programming knowledge allows 
-        </p>
-      </div>
-      <div id="ui-ux" class="card flex-column">
-        <header>UI/UX Design</header>
-        <img src="assets/images/ui-ux.png" alt="ui-ux">
-        <p>
-          My experience designing promotional materials for Friar Tux and Silver Linings Behavioral Health have given me the knowledge to know what looks good for people.
-        </p>
-      </div>
-      <div id="bass" class="card flex-column">
-        <header>Bass Guitar Session Work</header>
-        <img src="assets/images/bass.png" alt="bass guitar">
-        <p>
-          I have 20 years experience playing bass and can write sensational lines in mere minutes.
-        </p>
-      </div>
-      <div id="consulting" class="card flex-column">
-        <header>Consulting for Emerging Fungi Cultivation Operations</header>
-        <img src="assets/images/fungi.jpg" alt="fungi">
-        <p>
-          My 8 years of fungi cultivation on both personal and commercial levels allows me to consult new emerging businesses on establishing their workflow and organization.
-        </p>
-      </div>
-      <div id="coaching" class="card flex-column">
-        <header>Psychedelic Coaching Services</header>
-        <img src="assets/images/coaching.jpg" alt="coaching">
-        <p>
-          My decade of experience in psychedelic spaces combined with my psychology education and years of experience in the mental health field allow me to help people who wish to journey prepare, work through the experience, and integrate the lessons learned into their daily life. Disclaimer: no illicit substances are provided and no medical advice or techniques are used during coaching sessions. Just coaching and motivational interviewing techniques. 
-        </p>
-      </div>
-    </section>
-    <h2>Examples of Work</h2>
-    <section id="portfolio" class="flex-container">
-      <div id="Module 1 Mini-Project" class="card flex-column">
-        <header>Module 1 Mini-Project</header>
-        <img src="" alt="Mini-project1 screenshot">
-      </div>
-      <div id="Module 1 Challenge" class="card flex-column">
-        <header>Module 1 Challenge</header>
-        <img src="" alt="Module1 Challenge">
-      </div>
-      <div id="Module-2 Mini Project" class="card flex-column">
-        <header>Module 2 Mini-Project</header>
-        <img src="" alt="Module 2 Mini">
-      </div>
-    </section>
+      <section id="work" class="container mt-5">
+          <h2>My Work</h2>
+          <div class="row">
+              <div class="col-lg-6">
+                  <a href="https://sivelos1.github.io/Project-One/" target="_blank">
+                      <img src="assets/images/SongStories.png" alt="App 1" class="img-fluid img-thumbnail">
+                      <p>SongStories</p>
+                  </a>
+              </div>
+              <!-- Additional application images can be placed in col-lg-3 or col-lg-4 depending on how many per row you want. Example: -->
+              <div class="col-lg-5">
+                  <a href="app2_link.html" target="_blank">
+                      <img src="assets/images/webdev.png" alt="App 2" class="img-fluid img-thumbnail">
+                      <p>App 2 Title</p>
+                  </a>
+              </div>
+              <!-- And so on... -->
+          </div>
+      </section>
 
-    <section id="contact-me" class="flex-container">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-  
-  <footer class="footer">
-    <p>Footer</p>
-  </footer>
-  
-  </body>
-  </html>
+      <section id="contact" class="container mt-5">
+          <h2>Contact</h2>
+          <p>Email: holloway.neil13@gmail.com</p>
+          <p>Phone: 949-350-7756</p>
+          <p>GitHub: https://github.com/SporeSun</p>
+      </section>
+    </main>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
