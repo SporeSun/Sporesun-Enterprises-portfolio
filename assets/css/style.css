@@ -1,5 +1,11 @@
 body {
     font-family: Arial, sans-serif;
+    color: whitesmoke;
+}
+
+nav {
+  background-color: black;
+  color: whitesmoke;
 }
 
 header {
