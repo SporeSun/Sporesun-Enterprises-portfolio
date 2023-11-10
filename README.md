@@ -1,17 +1,11 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+# <Sporesun Enterprises Portfolio>
 
-### Live - https://react-portfolio-template.netlify.app/
+![thumbnail](https://i.imgur.com/mk5C2ZO.png?1)
 
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
 
-### Tutorials
+## Description
 
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
-
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
-
-### Features - 
-
+### Features
 - Modern Stack (Next.js + TailwindCSS)
 - Minimal Design
 - Easy To Browse
@@ -19,9 +13,7 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 - Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
 - Dark Mode
 
-
 ### Sections
-
 - Header
 - Work
 - Services
@@ -29,15 +21,23 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 - Contact
 - Markdown Blog
 
+## Table of Contents (Optional)
 
-### How To Use
+If your README is long, add a table of contents to make it easy for users to find what they need.
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
 
 - Clone this repo
 - run `yarn`
 - `yarn dev`
 
-
-### How To Deploy - 
+## Usage
 
 - There are many ways to Deploy this repo.
 - here we are gonna use netlify
@@ -47,33 +47,36 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 
 Quickes way to deploy this repo - 
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SporeSun/Sporesun-Enterprises-portfolio)
 
-
-### How To Contribute - 
+## Contribute
 
 I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
 
-
-### Tech Stack Used - 
+## Tech Stack Used 
 - Next.js
 - TailwindCSS
 
+## Credits
 
-### Thanks
+reset.css taken from: https://github.com/necolas/normalize.css/blob/master/normalize.css
 
-If you liked this portfolio template, don't forget to give it a ⭐.
+stock images are from the following:
 
-## Awesome Contributors
+- https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg
+
+- https://latize.com/wp-content/uploads/2017/11/business_advantages_of_data_analysis.jpg
+
+- https://guitarspace.org/wp-content/uploads/2017/09/4-String-Bass-vs.-5-String-Bass-%E2%80%94-Which-Guitar-to-Choose-and-Why.png
+
+- https://www.morningagclips.com/wp-content/uploads/2018/04/11179217566_650541b88b_z.jpg
+
+- https://ychef.files.bbci.co.uk/1280x720/p07yjw6c.jpg
+
+Template Designed by these contributors:
 [@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
+[@chetanverma16](https://github.com/chetanverma16/)
 
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
+## License
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
-
-
-
-
-
+MIT Open License
