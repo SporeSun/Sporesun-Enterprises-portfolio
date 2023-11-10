@@ -20,6 +20,7 @@ export default function Home() {
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
+  const avatar = useRef();
   const textThree = useRef();
   const textFour = useRef();
 
@@ -77,6 +78,7 @@ export default function Home() {
             >
               {data.headerTaglineTwo}
             </h1>
+            <img ref={avatar} className="" src={data.avatarImageSrc} alt="Avatar"></img>
             <h1
               ref={textThree}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
