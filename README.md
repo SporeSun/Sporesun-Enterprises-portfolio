@@ -1,82 +1,79 @@
-# <Your-Project-Title>
+![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
 
-## Description
+### Live - https://react-portfolio-template.netlify.app/
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### Tutorials
 
-## Table of Contents (Optional)
+Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+### Features - 
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-reset.css taken from: https://github.com/necolas/normalize.css/blob/master/normalize.css
-
-stock images are from the following:
-
-- https://www.analyticsinsight.net/wp-content/uploads/2020/11/Artificial-Intelligence-5.jpg
-
-- https://latize.com/wp-content/uploads/2017/11/business_advantages_of_data_analysis.jpg
-
-- https://guitarspace.org/wp-content/uploads/2017/09/4-String-Bass-vs.-5-String-Bass-%E2%80%94-Which-Guitar-to-Choose-and-Why.png
-
-- https://www.morningagclips.com/wp-content/uploads/2018/04/11179217566_650541b88b_z.jpg
-
-- https://ychef.files.bbci.co.uk/1280x720/p07yjw6c.jpg
+- Modern Stack (Next.js + TailwindCSS)
+- Minimal Design
+- Easy To Browse
+- Easy To Customize your details With GUI
+- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
+- Dark Mode
 
 
-## License
+### Sections
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+- Header
+- Work
+- Services
+- About
+- Contact
+- Markdown Blog
 
----
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+### How To Use
 
-## Badges
+- Clone this repo
+- run `yarn`
+- `yarn dev`
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+### How To Deploy - 
 
-## Features
+- There are many ways to Deploy this repo.
+- here we are gonna use netlify
+- Login into netlify with github
+- after login select the forked repo or the repo you want to deploy
+- after selecting netlify will automatially deploy your website.
 
-If your project has a lot of features, list them here.
+Quickes way to deploy this repo - 
 
-## How to Contribute
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-## Tests
+### How To Contribute - 
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
+
+
+### Tech Stack Used - 
+- Next.js
+- TailwindCSS
+
+
+### Thanks
+
+If you liked this portfolio template, don't forget to give it a ⭐.
+
+## Awesome Contributors
+[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
+
+## Supporting
+Many hours of hard work have gone into this project. Your support will be very appreciated!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
+
+
+
+
+
+
