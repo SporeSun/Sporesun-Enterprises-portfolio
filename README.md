@@ -2,6 +2,9 @@
 
 ![thumbnail](https://i.imgur.com/mk5C2ZO.png?1)
 
+## Deploy
+
+https://stunning-flan-fee2dd.netlify.app/
 
 ## Description
 
@@ -21,7 +24,7 @@
 - Contact
 - Markdown Blog
 
-## Table of Contents (Optional)
+## Table of Contentsd
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
