@@ -53,31 +53,7 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
 
-                {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
-                    <ProjectResume
-                      key={id}
-                      dates={dates}
-                      type={type}
-                      position={position}
-                      bullets={bullets}
-                    ></ProjectResume>
-                  )
-                )}
-              </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Education</h1>
-                {resume.education.map((education, index) => (
-                  <div key={index} className="mt-2">
-                    <h2 className="text-lg">{education.universityName}</h2>
-                    <h3 className="text-sm opacity-75">{education.universityDate}</h3>
-                    <p className="text-sm mt-2 opacity-50">{education.universityPara}</p>
-                  </div>
-                ))}
-              </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
@@ -120,6 +96,32 @@ const Resume = () => {
                     </div>
                   )}
                 </div>
+              </div>
+
+              <div className="mt-5">
+                <h1 className="text-2xl font-bold">Experience</h1>
+
+                {resume.experiences.map(
+                  ({ id, dates, type, position, bullets }) => (
+                    <ProjectResume
+                      key={id}
+                      dates={dates}
+                      type={type}
+                      position={position}
+                      bullets={bullets}
+                    ></ProjectResume>
+                  )
+                )}
+              </div>
+              <div className="mt-5">
+                <h1 className="text-2xl font-bold">Education</h1>
+                {resume.education.map((education, index) => (
+                  <div key={index} className="mt-2">
+                    <h2 className="text-lg">{education.universityName}</h2>
+                    <h3 className="text-sm opacity-75">{education.universityDate}</h3>
+                    <p className="text-sm mt-2 opacity-50">{education.universityPara}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
