@@ -6,6 +6,7 @@ import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
+import Head from "next/head";
 // Data
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
@@ -37,6 +38,9 @@ const Resume = () => {
           data.showCursor && "cursor-none"
         }`}
       >
+      <Head>
+        <title>{Resume}</title>
+      </Head>
         <Header isBlog />
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
