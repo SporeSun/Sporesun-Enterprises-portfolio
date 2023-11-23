@@ -4,7 +4,7 @@
 
 ## Deploy
 
-https://stunning-flan-fee2dd.netlify.app/
+https://sporesun.netlify.app/
 
 ## Description
 
@@ -36,7 +36,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-- Clone this repo
+- Clone this repo: https://github.com/SporeSun/Sporesun-Enterprises-portfolio.git
 - run `yarn`
 - `yarn dev`
 
